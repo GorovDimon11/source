@@ -32,7 +32,7 @@
             <!--CommandParameter="{x:Static nav:ViewType.ViewAllUsers}"-->
             <!--CommandParameter="{x:Static nav:ViewType.Xrecord}"-->
             <!--CommandParameter="{x:Static nav:ViewType.Zrecord}"-->
-            <RadioButton Grid.Column="0" Content="Main" 
+            <RadioButton Grid.Column="0" Content="Home" 
                          Command="{Binding UpdateCurrentViewModelCommand}"
                          CommandParameter="{x:Static nav:ViewType.SeniorHome}"
                          />

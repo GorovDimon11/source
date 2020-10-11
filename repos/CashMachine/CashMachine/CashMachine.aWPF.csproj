@@ -11,8 +11,4 @@
     <ProjectReference Include="..\CashMachine.EntityFramework\CashMachine.EntityFramework.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
-
 </Project>
