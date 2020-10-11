@@ -10,11 +10,14 @@ namespace CashMachine.EntityFramework
     {
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Product> Products { get; set; }
 
         public CashMachineDbContext(DbContextOptions options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Cheque>().
+
             base.OnModelCreating(modelBuilder);
         }
 

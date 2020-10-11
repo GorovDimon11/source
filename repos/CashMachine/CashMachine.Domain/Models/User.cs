@@ -8,9 +8,9 @@ namespace CashMachine.Domain.Models
     {
         //TODO DELete all Id, becauseOf DomainObject,      and Ukr
         // long Id { get; set; }
-        public string Name { get; set; }
-        //public string NameInUkrainianLanguage { get; set; }
+        public string Name { get; set; }        
         public string Password { get; set; }
         public string Email { get; set; }
+        public UserRole Role { get; set;}
     }
 }
