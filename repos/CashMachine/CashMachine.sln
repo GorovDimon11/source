@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine", "CashMachine\CashMachine.csproj", "{4B04D034-2AEC-4BDE-8AFA-E4C0E5808878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashMachine.aWPF", "CashMachine\CashMachine.aWPF.csproj", "{4B04D034-2AEC-4BDE-8AFA-E4C0E5808878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashMachine.Domain", "CashMachine.Domain\CashMachine.Domain.csproj", "{E9103825-792F-463E-95E7-08BA71DF97CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashMachine.EntityFramework", "CashMachine.EntityFramework\CashMachine.EntityFramework.csproj", "{370B21C5-E775-49D5-BB8D-6C94F179CEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{12826246-FB59-4787-A134-B83BBEAD1BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{4B04D034-2AEC-4BDE-8AFA-E4C0E5808878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B04D034-2AEC-4BDE-8AFA-E4C0E5808878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B04D034-2AEC-4BDE-8AFA-E4C0E5808878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9103825-792F-463E-95E7-08BA71DF97CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9103825-792F-463E-95E7-08BA71DF97CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9103825-792F-463E-95E7-08BA71DF97CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9103825-792F-463E-95E7-08BA71DF97CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370B21C5-E775-49D5-BB8D-6C94F179CEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370B21C5-E775-49D5-BB8D-6C94F179CEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370B21C5-E775-49D5-BB8D-6C94F179CEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370B21C5-E775-49D5-BB8D-6C94F179CEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12826246-FB59-4787-A134-B83BBEAD1BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12826246-FB59-4787-A134-B83BBEAD1BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12826246-FB59-4787-A134-B83BBEAD1BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12826246-FB59-4787-A134-B83BBEAD1BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
