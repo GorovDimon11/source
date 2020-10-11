@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CashMachine.aWPF.ViewModels
 {
-    class SeniorHome
+    public class SeniorHomeModel : ViewModelBase
     {
+
     }
 }
